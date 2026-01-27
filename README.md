@@ -31,3 +31,6 @@ Any other code will not be described here.  Working out what this is for is up t
 - `smiley.py`
 - `sad.py`
 - `happy.py`
+
+### The exercise
+We have added `exercise.md` to describe what you will be doing in today's lesson.
