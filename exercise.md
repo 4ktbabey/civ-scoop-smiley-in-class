@@ -33,12 +33,13 @@ We would like all of our Smileys to be able to blink.
 We would like our Smileys to be various colours
 2.1: What class defines the colours?
 2.2: Name all colours
-2.3: Add `BLUE` to Smiley
+2.3: Add `BLUE` to Smiley (you may need to read up on the RGB colour model)
 ### 3
 3.1: Modify Smiley's constructor, so that it can accept a `complexion` parameter.  This should default to `YELLOW`
 3.2: Set a private instance variable, `self.__complexion` to the complexion parameter.
 3.2: Instead of setting `Y` to `self.YELLOW`, now set `Y` to `self.__complexion`
-3.3: Refactor: everywhere that currently uses `self.YELLOW`, `Smiley` or elsewhere, should now refer to `self.__complexion`
+3.3: Add either a @property, or a get_complexion method to Smiley
+3.3: Refactor: everywhere that currently uses `self.YELLOW`, `Smiley` or elsewhere, should now refer to `self.get_complexion()` or `self.complexion`, depending on your solution.
 ### 4
 After all that: let's make our Sad smiley blue.
 4.1: Modify the call to `super().__init__()`, so that it can take the new `self.BLUE` parameter.
