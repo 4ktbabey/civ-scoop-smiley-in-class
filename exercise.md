@@ -3,12 +3,9 @@
 This class activity will feed into Assessment Task 3.
 You will find it challenging to complete Assessment Task 3 without this activity.
 # The Setup
-1. You will fork the repository at [civ-scoop-smiley](https://github.com/NM-TAFE/civ-scoop-smiley-in-class) to your own GitHub account
-2. You will "detach your fork from the fork network": [Detaching a fork - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork)
-3. You will make your personal copy of the Smiley repository private: [Setting repository visibility - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility)
-4. Clone this repository to your local machine
-5. Read the `README.md`, and run your code from `main.py`.
-6. 🙂
+1. You will clone the repository at [civ-scoop-smiley](https://github.com/NM-TAFE/civ-scoop-smiley-in-class)
+2. Read the `README.md`, and run your code from `main.py`.
+3. 🙂
 
 # The Exercise
 
