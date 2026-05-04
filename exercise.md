@@ -31,8 +31,8 @@ We would like all of our Smileys to be able to blink.
 
 ### 2
 We would like our Smileys to be various colours
-2.1: What class defines the colours?
-2.2: Name all colours
+2.1: What class defines the colours? Class Smiley
+2.2: Name all colours: White, Green, Red, yellwo, Blue, Blank
 2.3: Add `BLUE` to Smiley (you may need to read up on the RGB colour model)
 ### 3
 3.1: Modify Smiley's constructor, so that it can accept a `complexion` parameter.  This should default to `YELLOW`

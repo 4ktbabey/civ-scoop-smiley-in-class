@@ -6,14 +6,16 @@ class Smiley:
     GREEN = (0, 255, 0)
     RED = (255, 0, 0)
     YELLOW = (255, 255, 0)
+    BLUE = (0, 0, 255)
     BLANK = (0, 0, 0)
+    
 
     def __init__(self):
         self.window_name = f"{self.__class__.__name__} Smiley"
         # We have encapsulated the SenseHat object
         self.sense_hat = SenseHat(window_name=self.window_name)
 
-        Y = self.GREEN
+        Y = self.BLUE
         O = self.BLANK
         self.pixels = [
             O, Y, Y, Y, Y, Y, Y, O,
