@@ -10,12 +10,13 @@ class Smiley:
     BLANK = (0, 0, 0)
     
 
-    def __init__(self):
+    def __init__(self, complexion=YELLOW):
+        self._complexion = complexion
         self.window_name = f"{self.__class__.__name__} Smiley"
         # We have encapsulated the SenseHat object
         self.sense_hat = SenseHat(window_name=self.window_name)
 
-        Y = self.BLUE
+        Y = self.complexion
         O = self.BLANK
         self.pixels = [
             O, Y, Y, Y, Y, Y, Y, O,
@@ -27,6 +28,10 @@ class Smiley:
             Y, Y, Y, Y, Y, Y, Y, Y,
             O, Y, Y, Y, Y, Y, Y, O,
         ]
+    
+    @property
+    def complexion(self):
+        return self._complexion
 
     def dim_display(self, dimmed=True):
         """
@@ -34,6 +39,7 @@ class Smiley:
         :param dimmed: Dim the display if True, otherwise don't dim
         """
         self.sense_hat.low_light = dimmed
+
 
     def show(self):
         """
