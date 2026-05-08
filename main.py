@@ -4,10 +4,10 @@ That is, delete the vendor/sense_hat.py file that is included in this bundle."""
 
 import time
 
-from sad import Sad
+from happy import Happy
 
 def main():
-    smiley = Sad()
+    smiley = Happy()
     smiley.show()
     time.sleep(1)
     smiley.blink()
